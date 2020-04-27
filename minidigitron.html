@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitron</title>
+    <script src="minidig.js"></script>
+    <link rel="stylesheet" type="text/css" href="minidig.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Mini digitron</h1>
+
+    <table class="digitron">
+        <form>
+            <tr class="prvibroj">
+                <td class="tekst">Unestite prvi broj:</td>
+                <td><input class="polje" type="text" name="br1" id="br1"></td>
+            </tr>
+            </br>
+
+            <tr class="drugibroj">
+
+                <td class="tekst">Unestite drugi broj:</td>
+                <td><input class="polje" type="text" name="br2" id="br2"></td>
+            </tr>
+
+            </br>
+
+
+            <tr style="margin-right: 40px;">
+                <td> </td>
+                <td><input class="button" type="button" name="saberi" value=" + " onClick="izracunaj(1);" />
+                    <input class="button" type="button" name="oduzmi" value=" - " onClick="izracunaj(2);" />
+                    <input class="button" type="button" name="pomnozi" value=" x " onClick="izracunaj(3);" />
+                    <input class="button" type="button" name="podeli" value=" / " onClick="izracunaj(4);" />
+                </td>
+            </tr>
+            </br>
+
+            <tr class="rezultat">
+                <td class="tekst">Rezulat:</td>
+                <td><input class="polje" type="text" name="rez" id="rez" value="" readonly="readonly" /></td>
+            </tr>
+
+
+
+
+        </form>
+
+    </table>
+
+
+</body>
+
+</html>
