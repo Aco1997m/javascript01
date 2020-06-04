@@ -39,7 +39,7 @@ function calculateBmi() {
         var nVisinaMetri = nVisinaCentimentri / 100;
 
         var finalBmi = (nTezina / Math.pow(nVisinaMetri, 2)).toFixed(2);
-        switch (finalBmi) {
+        switch (true) {
             case finalBmi < 18.5:
                  txtPoruka = "Потхрањеност.";
                 break;
