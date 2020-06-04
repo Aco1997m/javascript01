@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="bmi.js"></script>
+    <link rel="stylesheet" type="text/css" href="bmi.css">
+</head>
+
+<body>
+
+    <h1 class="naslov"> БМИ КАЛКУЛАТОР </h1>
+
+    <form class="bmiForm" name="bmiForm">
+        Ваша тежина(кг): <input type="text" name="tezina" class="polje"><br />
+        Ваша висина(цм): <input type="text" name="visina" class="polje" ><br />
+        <input type="button" class="button" value="Израчунај" onClick="calculateBmi()"><br />
+        Ваш БМИ: <input type="text" name="bmi" class="polje2" ><br />
+        Резултат: &nbsp; &nbsp; <input type="text" name="rezultat" class="polje2"><br />
+        <input type="reset" value="Ресетуј" class="button" />
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body { 
+    background-image: url("pozadina.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.bmiForm { 
+    float: right;
+    margin: 50px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.naslov { 
+    text-align: center;
+}
+
+.polje { 
+    width: 200px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+.polje2 { 
+    width: 320px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+.button { 
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+
+      
+}
+
