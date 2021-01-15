@@ -1,0 +1,9 @@
+#wrapp {
+    margin: 10px auto;
+    width: 70%;
+    height: 700px;
+}
+
+.selektovano {
+    background-color: greenyellow;
+}
